@@ -9,7 +9,7 @@ Install node version manager (nvm) by typing the following at the command line.
 
 ```bash
 sudo su -
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+curl -o- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 Activate nvm by typing the following at the command line.
 
@@ -20,7 +20,7 @@ Activate nvm by typing the following at the command line.
 Use nvm to install the latest version of Node.js by typing the following at the command line.
 
 ```bash
-nvm install node
+nvm install 20
 ```
 
 Test that node and npm are installed and running correctly by typing the following at the terminal:
@@ -40,7 +40,7 @@ sudo apt-get install git -y
 
 Just to verify if system has git installed or not, please run below command in terminal:
 ```bash
-git — version
+git --version
 ```
 
 This command will print the git version in the terminal.
